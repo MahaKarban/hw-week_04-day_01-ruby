@@ -156,7 +156,7 @@ people = [
 ]
 
 
-coffee_average_per_person = [7.43,4.43]
+
 
 ```
 

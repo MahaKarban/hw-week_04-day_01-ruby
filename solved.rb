@@ -26,7 +26,10 @@ upper_case_full_names = []
 ```
 
 ### Answer
-
+upper_case_full_names = students.map do |student|
+      full_name = " #{student[:first_name,:last_name]} "
+      full_name.upcase
+end
 
 ```rb
 
@@ -82,6 +85,12 @@ first_order_for_each_user = []
 ```
 
 ### Answer
+
+users.map do |order|
+
+    "#{order[:first description]}"
+end
+
 
 ```rb
 
@@ -152,7 +161,10 @@ coffee_average_per_person = [7.43,4.43]
 ```
 
 ### Answer
-
+students[:transactions].map do |transaction|
+    if transaction[:type] ==[:amount='COFFEE']
+        coffee_sum.reduce / coffee_sum.count 
+    end
 
 ```rb
 
@@ -215,6 +227,8 @@ most_expensive_products_by_store = []
 ```
 
 ### Answer
+
+I can’t do it.
 
 ```rb
 
